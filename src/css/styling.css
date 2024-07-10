@@ -1,0 +1,98 @@
+/* ^=========>Home page styling */
+#Home {
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+.home-overlay,
+.duration-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    z-index: 2;
+}
+
+.home-content-text h2 {
+    margin-top: 200px;
+}
+
+.open-nav,
+.close-btn {
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    z-index: 999999;
+}
+
+.sidebar-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar-content {
+    height: 100%;
+    background-color: #111111;
+    position: relative;
+
+}
+
+.sidebar-content .close-btn {
+    width: fit-content;
+}
+
+.sidebar-content .nav-link {
+    transition: color 0.4s;
+}
+
+.sidebar-content .nav-link:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.singer * {
+    background-color: #E68285;
+    margin: 0;
+}
+
+.singer h3 {
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#Duration {
+    background-image: url(../imgs/invitation.jpg);
+    width: 100%;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.duration-content {
+    height: 100%;
+}
+
+.duration-box {
+    width: 200px;
+    height: 150px;
+}
+
+.social-list .icon-border {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+    color: #777
+}
