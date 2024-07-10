@@ -58,7 +58,7 @@ $(document).ready(function () {
 // Duration section
 $(document).ready(function () {
     var eventDate = new Date('2024-7-26').getTime();
-    
+
     function updateCountdown() {
         var now = new Date().getTime();
         var distance = eventDate - now;
